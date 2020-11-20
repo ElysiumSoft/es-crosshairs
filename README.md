@@ -35,7 +35,7 @@ VOID InitializeGlobals()
 > This project was created with Visual Studio 2019, compatiblity with previous versions cannot be guaranteed.
 
 #### 🔵 Clone the project from github:
-```bash
+```sh
 git clone https://github.com/ElysiumSoft/es-crosshairs
 ```
 
