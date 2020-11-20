@@ -2,7 +2,7 @@
 > Simple app to draw a crosshair in any game window
 
 ## Configuration
-Configuration is (for now) done in the [Main.cpp](ElysiumCrosshairs/Main.cpp) file.
+Configuration is (for now) done in the [`Main.cpp`](ElysiumCrosshairs/Main.cpp) file.
 Simply edit the `InitializeGlobals` function as follows:
 
 ---
