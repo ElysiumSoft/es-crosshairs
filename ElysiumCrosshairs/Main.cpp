@@ -58,7 +58,7 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	ShowWindow(hwnd, nCmdShow);
 	UpdateWindow(hwnd);
 
-	while (!GetAsyncKeyState(VK_F4))
+	while (!GetAsyncKeyState(VK_INSERT))
 	{
 		if (GetMessage(&msg, NULL, 0, 0) > 0)
 		{
@@ -196,8 +196,8 @@ VOID InitializeGlobals()
 
 	//	CROSSHAIR COLOUR
 	g_red = 255;
-	g_green = 255;
-	g_blue = 255;
+	g_green = 0;
+	g_blue = 0;
 
 	//	CROSSHAIR SIZE AND THICKNESS
 	g_thickness = 1;		  // Fiddle with
